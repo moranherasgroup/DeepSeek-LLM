@@ -22,8 +22,8 @@ python deepseek_completion.py
 
 ## Model Information
 
-- **Model**: deepseek-ai/deepseek-llm-7b-base
-- **Parameters**: 7 billion
+- **Model**: deepseek-ai/deepseek-llm-67b-base
+- **Parameters**: 67 billion
 - **Precision**: bfloat16 for memory efficiency
 - **Context Length**: 4096 tokens
 
@@ -44,6 +44,7 @@ You can modify the generation parameters in the script:
 
 ## Memory Requirements
 
-- GPU: ~14-16GB VRAM for bfloat16 precision
+- GPU: 80GB+ VRAM recommended for 67B model (or multiple GPUs with model sharding)
 - CPU fallback: Available but significantly slower
-- RAM: 8GB+ recommended
+- RAM: 16GB+ recommended
+- Disk Space: ~130GB for model download
