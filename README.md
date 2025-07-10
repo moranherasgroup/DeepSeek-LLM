@@ -12,7 +12,7 @@ This example demonstrates how to use the DeepSeek LLM 7B Base model for text com
 
 1. Install the required packages:
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 2. Run the example:
